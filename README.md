@@ -1,5 +1,5 @@
 # Course Management System
-**Preview Address:** [Click](fleetingsound.net)  (Id: <u>jake</u> , password: <u>123</u>)
+**Preview Address:** http://fleetingsound.net (Id: <u>jake</u> , password: <u>123</u>)
 
 Or
 
