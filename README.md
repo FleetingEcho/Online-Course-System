@@ -1,5 +1,5 @@
 # Course Management System
-**Preview Address:** http://fleetingsound.net (Id: <u>jake</u> , password: <u>123</u>)
+**Preview Address:** https://fleetingsound.net (Id: <u>jake</u> , password: <u>JaKe!cA1i</u>)
 
 Or
 
@@ -25,7 +25,7 @@ Deployment:  AWS + Nginx + Node + MongoDB
 
 
 
-## Installation
+## Installation & Operation
 
 1. Server Install packages:
 
