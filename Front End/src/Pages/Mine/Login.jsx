@@ -84,11 +84,11 @@ class Login extends Component {
     _onSubmit(){
         const {user_name, user_pwd} = this.state;
         if(!user_name){
-            message.error('username cannot be empty!')
+            message.info('username cannot be empty!')
             return;
         }
         if(!user_pwd){
-            message.error('password cannot be empty!')
+            message.info('password cannot be empty!')
             return;
         }
 

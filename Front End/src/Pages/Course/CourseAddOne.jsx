@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import {connect} from "react-redux";
 // import { Prompt } from 'react-router'
+import {message} from 'antd'
 import { Modal, Button, Space } from 'antd';
 import { Tooltip,Progress,Steps} from 'antd';
 import { HighlightOutlined, EditOutlined, UploadOutlined, CheckOutlined,LoadingOutlined } from '@ant-design/icons';
@@ -313,7 +314,7 @@ class CourseAddOne extends Component {
             course_intro === '' ||
             course_tag === ''
         ){
-            alert('Some info need to be entered');
+            message.info('Some info need to be entered');
             return;
         }
 

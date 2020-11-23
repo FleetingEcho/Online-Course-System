@@ -101,7 +101,7 @@ class ResetPwd extends Component {
     _onSubmit(){
         const {old_pwd, new_pwd, re_pwd, token} = this.state;
         if(new_pwd !== re_pwd){
-            alert('New password didn\'t match');
+            message.error('New password didn\'t match');
             return;
         }
         console.log(md5(old_pwd + S_KEY));
@@ -122,7 +122,7 @@ class ResetPwd extends Component {
             }
         }).catch((error)=>{
             console.log(error);
-            alert('Failed to change password')
+            message.error('Failed to change password')
         })
     }
 }

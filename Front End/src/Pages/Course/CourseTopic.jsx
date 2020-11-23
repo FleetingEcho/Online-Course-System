@@ -145,7 +145,7 @@ handleChange = e => {
               author={<a>Robert Downey Jr.</a>}
               avatar={
                 <Avatar
-                  src="http://ww1.sinaimg.cn/large/007hXJtKgy1ghei11ea23j31991iztkr.jpg"
+                  src="https://media3.s-nbcnews.com/j/newscms/2020_04/3197266/200122-robert-downey-jr-cs-1104a_e69d78798cc661d446cbfa2ccb3bb9e8.fit-2000w.jpg"
                   alt="Robert Downey Jr."
                 />
               }
@@ -231,7 +231,12 @@ handleChange = e => {
                                             <div>No video uploaded for this course</div>
                                            :
                                            videoList.map((item2,index2)=>{
-                                            if(item2.indexOf('mp4')!== -1){
+                                            if(item2.indexOf('mp4')!== -1 || 
+                                            item2.indexOf('wmv')!== -1||
+                                            item2.indexOf('m4a')!== -1||
+                                            item2.indexOf('mkv')!== -1||
+                                            item2.indexOf('avi')!== -1)
+                                          {
                                             {/* if(item2.indexOf('mp4'||'wmv' || 'm4a' || 'mkv' || 'avi')!== -1){ */}
                                                 return (
                                                     <div key={index2}>

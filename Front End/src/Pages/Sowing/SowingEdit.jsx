@@ -232,7 +232,7 @@ class SowingEdit extends Component {
             }
         }).catch((error)=>{
             console.log(error);
-            alert('Failed to Edit');
+            message.error('Failed to Edit');
         });
     }
 

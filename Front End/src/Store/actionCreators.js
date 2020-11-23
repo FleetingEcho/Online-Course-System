@@ -56,7 +56,7 @@ export const getUserDataAction = (data, callback)=>{
                });
                callback && callback(userData);
            }else {
-               alert(res.result);
+               message.error(res.result);
            }
        }).catch((err)=>{
         message.error(err)

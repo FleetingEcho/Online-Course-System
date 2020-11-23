@@ -113,7 +113,7 @@ class User extends Component {
         const {studentData}=this.props
         const total=Number(studentData[1])
         return (
-            <div className="container-fluid">
+            <div className="container-fluid" style={{width:'100%'}}>
                 <div className="body">
                     <ol className="breadcrumb">
                         <li><a href="#">User /</a></li>
@@ -159,7 +159,7 @@ class User extends Component {
                                         <td>{student.phone}</td>
                                         <td>{student.points}</td>
                                         <td>{student.reg_time}</td>
-                                        <td>{student.last_login_time}</td>
+                                        <td>{student.last_login_time.substr(0,10)}</td>
                                         <td>
                                             {/* <a href="#" className="btn btn-info btn-xs" onClick={this.showModal}>
                                             Check

@@ -132,15 +132,17 @@ class CourseList extends Component {
                                         <div className="pic">
                                             <img style={{height:'120px'}} onClick={this.courseImgClick.bind(this,source._id)} src={IMG_PRE + source.course_page} alt=""/>
                                         </div>
-                                        <div className="info">
+                                        <div className="info" style={{fontSize:'17px'}}>
                                             <a key={index} onClick={this.showModal.bind(this,index)}>{source.course_name}</a>
                                             <ul className="list-unstyled">
                                                 <li>
-                                                    <span>Teacher：{source.course_teacher}</span>
-                                                    <span>Main Category：{source.main_category}</span>
+                                                    <span >Teacher: {source.course_teacher}</span>
                                                 </li>
                                                 <li>
-                                                    <span>Sub-Category： {source.sub_category}</span>
+                                                    <span>Main Category: {source.main_category}  </span>
+                                                </li>
+                                                <li>
+                                                    <span>Sub-Category: {source.sub_category}</span>
                                                 </li>
                                             </ul>
                                         <div style={{float:'right'}}>
