@@ -1,5 +1,5 @@
 # Course Management System
-**Preview Address:** https://fleetingsound.ca (Id: <u>jake</u> , password: <u>jake</u>)
+**Preview Address:** https://www.fleetingsound.ca (Id: <u>jake</u> , password: <u>jake</u>)
 
 Or
 
